@@ -1,0 +1,38 @@
+{
+    "characters": [{
+        "id": 1,
+        "url": "https://vignette.wikia.nocookie.net/lotr/images/5/54/Untitledjk.png/revision/latest/scale-to-width-down/350?cb=20130313174543",
+        "name": "Frodo Baggins",
+        "description": "Frodo Baggins, son of Drogo Baggins, was a Hobbit of the Shire during the Third Age. He was, and still is, Tolkien's most renowned character for his leading role in the Quest of the Ring, in which he bore the One Ring to Mount Doom, where it was destroyed. He was a Ring-bearer, best friend to his gardener, Samwise Gamgee, and one of the three Hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.",
+        "gender": "Male",
+        "race": "Hobbit",
+        "birthday": "2968-09-22"
+    },
+    {
+        "id": 2,
+        "url": "https://vignette.wikia.nocookie.net/lotr/images/2/20/Sam.jpg/revision/latest?cb=20070623123241",
+        "name": "Samwise Gamgi",
+        "description": "Samwise Gamgee, known as Sam, was a Hobbit of the Shire. He was Frodo Baggins' gardener and best friend. Sam proved himself to be Frodo's closest and most dependable companion, the most loyal of the Fellowship of the Ring, and also played a critical role in protecting Frodo and destroying the One Ring.",
+        "gender": "Male",
+        "race": "Hobbit",
+        "birthday": "2980-04-06"
+    },
+    {
+        "id": 3,
+        "url": "https://vignette.wikia.nocookie.net/lotr/images/0/0a/Pippinprintscreen.jpg/revision/latest?cb=20060310083048",
+        "name": "Peregrin Took",
+        "description": "Peregrin Took, more commonly known as Pippin, was a Hobbit of the Shire, and one of Frodo Baggins's youngest, but closest friends. He was a member of the Fellowship of the Ring and later became the thirty-second Thain of the Shire.",
+        "gender": "Male",
+        "race": "Hobbit",
+        "birthday": "2980-04-06"
+    },
+    {
+        "id": 4,
+        "url": "https://vignette.wikia.nocookie.net/lotr/images/d/d8/Merry1.jpg/revision/latest?cb=20080318214905",
+        "name": "Meriadoc Brandybuck",
+        "description": "Meriadoc \"Merry\" Brandybuck (later known as Meriadoc \"Merry\" Brandybuck I, due to his grandson's birth) was a Hobbit and one of Frodo's cousins and closest friends. He loved boats and ponies and had a great interest in the maps of Middle-earth. He was also one of the nine companions of the Fellowship of the Ring, and later became the eighth Master of Buckland.",
+        "gender": "Male",
+        "race": "Hobbit",
+        "birthday": "2980-04-06"
+    }]
+}
