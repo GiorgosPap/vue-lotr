@@ -1,16 +1,26 @@
 <template>
-  <div>
+  <div id="nav">
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">The Lord of the Rings</b-navbar-brand>
+      <b-navbar-brand href="#">
+        <router-link to="/">The Lord of the Rings</router-link>
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Books</b-nav-item>
-          <b-nav-item href="#">Movies</b-nav-item>
-          <b-nav-item href="#">Characters</b-nav-item>
-          <b-nav-item href="#">Map</b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/books">Books</router-link>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/movies">Movies</router-link>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/characters">Characters</router-link>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/map">Map</router-link>
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -46,3 +56,19 @@ export default {
   name: 'Navbar'
 };
 </script>
+
+
+<style lang="scss">
+#nav {
+  // padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #ffffff;
+
+    &.router-link-exact-active {
+      color: #ffffff;
+    }
+  }
+}
+</style>

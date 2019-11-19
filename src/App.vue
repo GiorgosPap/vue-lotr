@@ -1,16 +1,26 @@
 <template>
     <div id="app">
       <NavBar />
-      <Characters />
+      <!-- <Characters /> -->
+      <router-view/>
     </div>
 </template>
 
 <script>
 import NavBar from '@/components/navbar';
-import Characters from '@/components/characters';
 
 export default {
   name: 'app',
-  components: { NavBar, Characters },
+  components: { NavBar },
 }
 </script>
+
+// <style lang="scss">
+// #app {
+//   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   text-align: center;
+//   color: #2c3e50;
+// }
+// </style>
